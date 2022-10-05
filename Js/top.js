@@ -17,5 +17,15 @@ fetch(`https://api.jikan.moe/v4/top/anime`)
       duration[index].textContent = movieData[index].duration;
       genres[index].textContent = movieData[index].genres[0].name;
       scores[index].textContent = movieData[index].score;
+
+      title[index].addEventListener("click", () => {
+        location.href = "details.html"+"?id=" + movieData[index].mal_id ;
+        title.forEach((detail) => {
+          const animeName = document.querySelector(".anime-name");
+
+    
+        });
+        
+      });
     }
   });

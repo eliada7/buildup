@@ -1,0 +1,58 @@
+* {
+    color: white;
+  }
+  body {
+    background-color: black;
+  }
+  .red {
+    color: red;
+  }
+  .f-banger {
+    font-family: "Bangers", cursive;
+  }
+  .f-san-serif {
+    font-family: sans-serif;
+  }
+  .ml-3 {
+    margin-left: 10px;
+  }
+  .ml-5 {
+    margin-left: 20px;
+  }
+  .mt-5{
+    margin-top: 20px;
+  }
+  .mg-auto{
+    margin:auto
+  }
+  .paragraph{
+    width: 550px;
+    margin: auto;
+  }
+  .picture {
+    width: 500px;
+    height: 500px;
+   
+  }
+  .anime-picture{ 
+    margin: auto;
+
+  }
+  .spacelett3 {
+    letter-spacing: 3px;
+  }
+  .spacelett6 {
+    letter-spacing: 6px;
+  }
+  .spacelett9 {
+    letter-spacing: 9px;
+  }
+  .fontsize30 {
+    font-size: 30px;
+  }
+  .fontsize60 {
+    font-size: 60px;
+  }
+  .fontsize90 {
+    font-size: 90px;
+  }
