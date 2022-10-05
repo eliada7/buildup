@@ -11,15 +11,29 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
+    <!--Font Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
+      rel="stylesheet"
+    />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="../css/index.css" />
+    <!--Add Css-->
+    <link rel="stylesheet" href="../css/style.css" />
+    <!--ADD JS FRO SEARCH -->
+
     <title>Build-Up Project</title>
   </head>
   <body>
     <div class="py-120px">
       <section id="opening-this-week">
         <div class="container">
-          <h1 class="mb-5">Opening This Week</h1>
+          <div class="d-flex flex-row align-items-baseline">
+            <div class="fontsize60 red">|</div>
+            <h1 class="mb-5 f-banger spacelett6 fontsize60">Trending Now</h1>
+          </div>
           <div class="row g-5">
             <div class="col-12 col-md-6 col-xl-4 col-xxl-3">
               <div class="card-movie d-flex flex-column g-4">
@@ -166,12 +180,18 @@
       <section id="coming-soon">
         <div class="container">
           <h1 class="mb-5">
-            <input type="text" id="input" />
-            <button id="submit" type="submit">Search</button>
+            <div class="d-flex col align-items-baseline">
+              <div class="red fontsize60 red">|</div>
+              <div class="f-banger spacelett6 fontsize60">Anime Search</div>
+            </div>
+            <input type="text" id="input" class="f-san-serif" />
+            <button id="submit" type="submit" class="btn f-san-serif">
+              Search
+            </button>
           </h1>
           <div class="row g-5">
             <div class="col-12 col-md-6 col-xl-4 col-xxl-3">
-              <div class="card-movie d-flex flex-column g-4">
+              <div class="card d-flex flex-column g-4">
                 <img
                   class="poster"
                   src="https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_.jpg"
@@ -188,7 +208,7 @@
               </div>
             </div>
             <div class="col-12 col-md-6 col-xl-4 col-xxl-3">
-              <div class="card-movie d-flex flex-column g-4">
+              <div class="card d-flex flex-column g-4">
                 <img
                   class="poster"
                   src="https://m.media-amazon.com/images/M/MV5BNDc4MThhN2EtZjMzNC00ZDJmLThiZTgtNThlY2UxZWMzNjdkXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_.jpg"
@@ -205,7 +225,7 @@
               </div>
             </div>
             <div class="col-12 col-md-6 col-xl-4 col-xxl-3">
-              <div class="card-movie d-flex flex-column g-4">
+              <div class="card d-flex flex-column g-4">
                 <img
                   class="poster"
                   src="https://cdn.shopify.com/s/files/1/1057/4964/products/black-panther-vintage-movie-poster-original-1-sheet-27x41_1985x.jpeg?v=1556571865"
@@ -222,7 +242,7 @@
               </div>
             </div>
             <div class="col-12 col-md-6 col-xl-4 col-xxl-3">
-              <div class="card-movie d-flex flex-column g-4">
+              <div class="card d-flex flex-column g-4">
                 <img
                   class="poster"
                   src="https://m.media-amazon.com/images/M/MV5BMjUyOTE1NjI0OF5BMl5BanBnXkFtZTgwMTM4ODQ5NTM@._V1_.jpg"
